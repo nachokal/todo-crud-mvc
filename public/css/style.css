@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0010bf;
+    font-family: 'Edu TAS Beginner', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-container {
+    margin-top: 100px;
+    color: white;
+    padding: 20px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo {
+    width: 400px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.todo form {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+input {
+    margin-bottom: 2px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Edu TAS Beginner', sans-serif;
+}
+
+textarea {
+    display:block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Edu TAS Beginner', sans-serif;
+}
+
+.todo-header button {
+    color: #0010bf;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    background-color: rgb(51, 212, 51);
+    font-family: 'Edu TAS Beginner', sans-serif;
+    display: flex;
+    gap: .6rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.todo-list {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-list-item {
+    padding: 12px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.todo-list-item-title {
+    width: 25%;
+}
+
+
+.todo-list-item-content {
+    width: 50%;
+    font-size: .8rem;
+}
+
+.todo-list-item form {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-list-item input {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+.todo-list-item .confirm {
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(51, 212, 100);
+    font-family: 'Edu TAS Beginner', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.todo-list-item .cancel {
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(223, 43, 43);
+    display: block;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list-item .edit {
+    color: rgb(143, 233, 58);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.todo-list-item .remove {
+    color: rgb(243, 96, 96);
+    margin-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.deleteTodo {
+    color: rgb(243, 96, 96);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.actionButtons {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.edit.confirm {
+    font-size: 1rem;color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(51, 212, 100);
+    font-family: 'Edu TAS Beginner', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.edit.cancel {
+    color: #505050;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    display: block;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
